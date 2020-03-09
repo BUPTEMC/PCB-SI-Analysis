@@ -1,0 +1,7 @@
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+
+"?F","","C1, C1_1, C2, C2_1, C3, C3_1, C4, C4_1","CAP_0805","CAP_paster","2","8"
+"LED_Light","","LED1, LED1_1","LED_D","LED_Light","2","2"
+"?ohm","","R1, R1_1, R2, R2_1, R3, R3_1, R4, R4_1, R5, R5_1","RES_0805","RES","2","10"
+"SMA","","U1, U1_1, U2, U2_1","SMA½Ó¿Ú","SMA","3","4"
+"OPA657","","[NoValue], *_1","OPA657","OPA657","5","2"

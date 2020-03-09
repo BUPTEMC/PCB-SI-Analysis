@@ -1,7 +1,9 @@
 import HYPF2D as C
+import HYPF2D_Iter as CC
 
 path = "../files/SampleAD-02-AD.HYP"
 path2 = "../files/demo.hyp"
+path3 = "../files/hyp/SampleAD-01.HYP"
 csvPath = "../files/test.csv"
 csvPath2 = "../files/test2.csv"
 outputPath = "../files/out.csv"
@@ -14,11 +16,16 @@ planeNames2 = ['vcc','gnd']
 # pins = C.getActiveAndNegtivePins(csvPath)
 # segs, aPins, nPins = C.getSegsAndPins(path, csvPath)
 # nets = C.getNetNames(path2)
-segs, aPins, nPins = C.getSegsAndPins(path2, csvPath2)
+# segs, aPins, nPins = C.getSegsAndPins(path, csvPath)
 # models = C.generateModels(aPins, nPins, segs, planeNames2)
-models = C.sortModels(aPins, nPins, segs, planeNames2)
+# models = CC.sortModels(aPins, nPins, segs, planeNames)
+# print(models)
+# models1 = CC.findAllAPinPath(segs, aPins, nPins)
+# models2 = C.sortModels(aPins, nPins, segs, planeNames)
+# print(len(models1))
+# print(len(models2))
 # print(models[0][1][0])
-C.readHYP2File(path2, csvPath2, outputPath, planeNames2)
+# C.readHYP2File(path2, csvPath2, outputPath, planeNames2)
 # model = [(('3.2500', '0.7000'), 'U4.15')]
 # models = []
 # key = model[0][0]
@@ -36,3 +43,5 @@ C.readHYP2File(path2, csvPath2, outputPath, planeNames2)
     # print(model)
 # print(len(models))
 
+net = CC.getNetNames(path3)
+print(net)

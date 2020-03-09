@@ -1,0 +1,236 @@
+ --------------------------------------------------------------------
+|   HyperLynx Batch Mode Report, v9.4                        |
+|                                                                    |
+| Note:   Search on '** Warning **'  and  '** Warning(Severe) **'    |
+|         to find signal-integrity and EMC problems.                 |
+|                                                                    |
+| Note:   The signal-integrity information below is a summary of     |
+|         the results from the corner cases selected for this batch  |
+|         run (Fast-Strong, Typical, and Slow-Weak).                 |
+|                                                                    |
+| Note:   Signal-integrity simulation tests for SI compliance        |
+|         against user-set limits, and includes effects of           |
+|         transmission-line discontinuities, IC loading, etc.        |
+|         SI violation flags include:                                |
+|           D = Delay error                                          |
+|               -> min delay to pin < net's min delay threshold  OR  |
+|               -> max delay to pin > net's max delay threshold      |
+|           T = Threshold error                                      |
+|               -> during transition, the pin's signal level did     |
+|                  not reach the switching threshold                 |
+|           R = Rail-overshoot error                                 |
+|               -> pin's signal level exceeded the power-supply rail |
+|                  by more than the net's overshoot threshold        |
+|           O = Signal-integrity-overshoot error                     |
+|               -> pin's signal level exceeded the steady-state      |
+|                  level by more than the net's overshoot threshold  |
+|           M = Multi-threshold-crossing error                       |
+|               -> pin's signal level crossed the threshold more     |
+|                  than once during transition                       |
+|           N = Non-monotonic error                                  |
+|               -> pin's signal level changed direction while within |
+|                  the transition region between Vil and Vih         |
+|           X = Crosstalk error                                      |
+|               -> crosstalk from neighbor nets exceeded the         |
+|                  threshold value for this net                      |
+|           - = No error in this field                               |
+|                                                                    |
+| Note:   Metal delays shown in this report are copper delays only   |
+|         (no effects of reflections, IC loading, etc.) For actual   |
+|         pin-to-pin delays, see detailed SI simulation results.     |
+|                                                                    |
+| Note:   The signal-integrity effects of vias were not taken into   |
+|         consideration.                                             |
+ --------------------------------------------------------------------
+
+START TIME
+**********************************************************************
+  Date ............................. Friday Feb. 28,2020
+  Time ............................. 22:03:34
+
+GENERAL INFORMATION
+**********************************************************************
+  Board ............................ SampleAD-02-AD.HYP
+  Total number of nets ............. 407
+  Total number of components........ 445
+  Board temperature ................ 20.0 degrees C
+  Default IC model (used for quick analysis if IC model is missing)
+    IC driver rise/fall time ..2.000 ns
+    IC driver switching voltage range ..3.00 V
+    IC driver output impedance 1.0 ohms
+    IC input capacitance ..... 7.0 pF
+
+STACKUP
+**********************************************************************
+
+  SIGNAL LAYER --------------------------------------------
+    layer number .......... 1
+    name .................. Top_Layer
+    thickness ............. 1.04 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+    test trace width ...... 4.000 mils
+    test trace impedance .. 64.51 ohms
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  PLANE LAYER ---------------------------------------------
+    layer number .......... 2
+    name .................. G3
+    thickness ............. 0.89 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... Dielectric
+    dielectric constant ... 4.2
+  SIGNAL LAYER --------------------------------------------
+    layer number .......... 3
+    name .................. S1
+    thickness ............. 1.04 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+    test trace width ...... 4.000 mils
+    test trace impedance .. 40.22 ohms
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  PLANE LAYER ---------------------------------------------
+    layer number .......... 4
+    name .................. G1
+    thickness ............. 0.89 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  PLANE LAYER ---------------------------------------------
+    layer number .......... 5
+    name .................. P1
+    thickness ............. 1.04 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 9.842 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  SIGNAL LAYER --------------------------------------------
+    layer number .......... 6
+    name .................. S3
+    thickness ............. 0.89 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+    test trace width ...... 4.000 mils
+    test trace impedance .. 73.34 ohms
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 13.780 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  SIGNAL LAYER --------------------------------------------
+    layer number .......... 7
+    name .................. S4
+    thickness ............. 1.04 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+    test trace width ...... 4.000 mils
+    test trace impedance .. 72.22 ohms
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 9.842 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  PLANE LAYER ---------------------------------------------
+    layer number .......... 8
+    name .................. P2
+    thickness ............. 1.04 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  PLANE LAYER ---------------------------------------------
+    layer number .......... 9
+    name .................. G2
+    thickness ............. 0.89 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  SIGNAL LAYER --------------------------------------------
+    layer number .......... 10
+    name .................. S2
+    thickness ............. 1.04 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+    test trace width ...... 4.000 mils
+    test trace impedance .. 40.22 ohms
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... FR-4
+    dielectric constant ... 4.2
+  PLANE LAYER ---------------------------------------------
+    layer number .......... 11
+    name .................. G4
+    thickness ............. 0.89 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+  DIELECTRIC LAYER ----------------------------------------
+    thickness ............. 3.937 mils
+    material name ......... Dielectric
+    dielectric constant ... 4.2
+  SIGNAL LAYER --------------------------------------------
+    layer number .......... 12
+    name .................. Bottom_Layer
+    thickness ............. 1.04 oz
+    plating thickness ..... 0.00 oz
+    material name ......... COPPER
+    resistivity ........... 1.724e-008 ohm-meter
+    temp coefficient ...... 0.003930
+    test trace width ...... 10.000 mils
+    test trace impedance .. 40.39 ohms
+
+CHANGED PASSIVE-COMPONENT VALUES
+**********************************************************************
+  Reference Designator  User Entered Value
+  --------------------  ------------------
+
+NEW TERMINATING COMPONENTS (Quick Terminators)
+**********************************************************************
+  Terminator Location          Type                Value(s)
+  ---------------------------  ------------------  -------------------
+
+
+END TIME
+**********************************************************************
+  Date ............................. Friday Feb. 28,2020
+  Time ............................. 22:03:34
+  Total Run Time....................  0 Days, 00 Hours, 00 Minutes 00 Seconds
+
+******************************* END **********************************

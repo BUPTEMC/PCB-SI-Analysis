@@ -1,0 +1,11 @@
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+
+"?F","","C1, C1_1, C2, C2_1, C3, C3_1, C4, C4_1","CAP_0805","CAP_paster","2","8"
+"Comment","","Designator9, Designator9_1, Designator10, Designator10_1, Designator11, Designator11_1, Designator12, Designator12_1, Designator13, Designator13_1, Designator14, Designator14_1","HDR_2","","2","12"
+"Header_1","","J1, J1_1","HDR_1","Header_1","1","2"
+"10Kohm","","R1, R1_1","RES_0805","RES","2","2"
+"402ohm","","R2, R2_1","RES_0805","RES","2","2"
+"18ohm","","R3, R3_1","RES_0805","RES","2","2"
+"?ohm","","R5, R5_1, R6, R6_1","RES_0805","RES","2","4"
+"VCA821","宽带、大于 40dB 调节范围、dB 线性可变增益放大器","U1, U1_1","VAC821","VCA821","14","2"
+"SMA","","U2, U2_1, U3, U3_1","SMA接口","SMA","3","4"

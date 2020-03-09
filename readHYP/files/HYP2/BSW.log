@@ -1,0 +1,11 @@
+2020-02-28 10:00:24 11660     [INFO] The board's outline polygon is not closed. BoardSim will close it for you. 
+2020-02-28 10:00:28 11660     [INFO] Opening Design: mt18vddt6472ag-265c4.hyp
+2020-02-28 10:00:28 11660     [INFO] The board's outline polygon is not closed. BoardSim will close it for you. 
+2020-02-28 20:29:30 10564     [INFO] Opening Design: demo2.hyp
+2020-02-28 20:30:59 11660     [INFO] Close HyperLynx Session: Design file: mt18vddt6472ag-265c4.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-28 20:31:03 11660     [INFO] Closing Design: mt18vddt6472ag-265c4.hyp
+2020-02-28 20:31:05 11660     [INFO] ****** Closing HyperLynx 
+2020-02-28 20:44:00 10564     [INFO] Save Batch Settings: Press YES to save changes Press NO to restore previous settings - The "Yes" button was selected
+2020-02-28 22:58:54 10564     [INFO] Close HyperLynx Session: Design file: demo2.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-28 22:58:59 10564     [INFO] Closing Design: demo2.hyp
+2020-02-28 22:59:01 10564     [INFO] ****** Closing HyperLynx 
