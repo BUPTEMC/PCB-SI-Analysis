@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 
 "Header 2","Header, 2-Pin","5Vin","HDR1X2","Header 2","2","1"
@@ -24,3 +25,31 @@ Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 "LM1117-1.2","","U5","SOT223","1117-x.y","4","1"
 "Mini USB B Connector","CONN MINI_AB SMT AU","USB-POWER","USB_MINIB_SMT","USB MINI AB Connector","10","1"
 "100MHz","","Y1","XTAL-4","?","4","1"
+=======
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+
+"Header 2","Header, 2-Pin","5Vin","HDR1X2","Header 2","2","1"
+"104","Capacitor","C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C24, C25, C26, C27, C30, C40, C41","0805C","Cap","2","17"
+"10uF","Bi-Polar Capacitor","C28, C31","1206C","CAP2","2","2"
+"100uF","Polarized Capacitor (Radial)","C29","1206C","Cap Pol1","2","1"
+"LED","Typical INFRARED GaAs LED","D1","0805LED","LED0","2","1"
+"JTAG","","I1","IDE10","IDE10","10","1"
+"AS","","I2","IDE10","IDE10","10","1"
+"","","L1, L2","L  0805","L  0805","2","2"
+"","","LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8","LED  0805","LED  0805","2","8"
+"BNC","BNC Elbow Connector","mm1, mm2, mm3, mm4","hole","BNC","1","4"
+"Header 16X2","Header, 16-Pin, Dual row","P2","HDR2X16","Header 16X2","32","1"
+"Header 22X2","Header, 22-Pin, Dual row","PIO1","HDR2X22","Header 22X2","44","1"
+"Header 3X2","Header, 3-Pin, Dual row","PP3","HDR2X3","Header 3X2","6","1"
+"1k","Resistor","R3","0805R","Res2","2","1"
+"10K","Resistor","R11, R13, R14, R15, R16, R17, R18, R20, R21, R22, R23, R24, R25, R26, R27","0805R","Res2","2","15"
+"51","Resistor","R19","0805R","Res2","2","1"
+"","","S1, S2, S3","小开关","?","3","3"
+"","","SA1","按键开关","?","6","1"
+"LM1117-3.3","","U2","SOT223","1117-x.y","4","1"
+"EP2C5T144C8","Cyclone II Family, 1.2V FPGA, 89 I/O Pins, 2 PLLs, 144-Pin TQFP, Speed Grade 8, Commercial Grade","U3","TQFP144_N","EP2C5T144C8","144","1"
+"EPCS4SI8","EPCS1 Series, In-system programmable 3.3V serial configuration device, 8-Pin SOIC, 1-Megabit, Industrial Grade","U4","AD8065","EPCS1SI8","8","1"
+"LM1117-1.2","","U5","SOT223","1117-x.y","4","1"
+"Mini USB B Connector","CONN MINI_AB SMT AU","USB-POWER","USB_MINIB_SMT","USB MINI AB Connector","10","1"
+"100MHz","","Y1","XTAL-4","?","4","1"
+>>>>>>> 43888ac89e41450472c750f6e8d67c4bfa5e6ee8

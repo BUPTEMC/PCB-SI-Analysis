@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 
 "?F","","C1, C1_1, C1_1_1, C1_1_2, C1_2, C1_3, C2, C2_1, C2_1_1, C2_1_2, C2_2, C2_3, C3, C3_1, C3_1_1, C3_1_2, C3_2, C3_3","CAP_0805","CAP_paster","2","18"
@@ -8,3 +9,15 @@ Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 "?ohm","","R1, R1_1, R1_1_1, R1_1_2, R1_2, R1_3, R2, R2_1, R2_1_1, R2_1_2, R2_2, R2_3, R3, R3_1, R3_1_1, R3_1_2, R3_2, R3_3, R4, R4_1, R4_1_1, R4_1_2, R4_2, R4_3","RES_0805","RES","2","24"
 "PE4302","","U1, U1_1, U1_1_1, U1_1_2, U1_2, U1_3","PE4302","PE4302","21","6"
 "SMA","","U2, U2_1, U2_1_1, U2_1_2, U2_2, U2_3, U3, U3_1, U3_1_1, U3_1_2, U3_2, U3_3","SMA接口","SMA","3","12"
+=======
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+
+"?F","","C1, C1_1, C1_1_1, C1_1_2, C1_2, C1_3, C2, C2_1, C2_1_1, C2_1_2, C2_2, C2_3, C3, C3_1, C3_1_1, C3_1_2, C3_2, C3_3","CAP_0805","CAP_paster","2","18"
+"Comment","","Designator2, Designator2_1, Designator2_1_1, Designator2_1_2, Designator2_2, Designator2_3, Designator3, Designator3_1, Designator3_1_1, Designator3_1_2, Designator3_2, Designator3_3, Designator4, Designator4_1, Designator4_1_1, Designator4_1_2, Designator4_2, Designator4_3, Designator5, Designator5_1, Designator5_1_1, Designator5_1_2, Designator5_2, Designator5_3","HDR_2","","2","24"
+"Comment","","Designator7, Designator7_1, Designator7_1_1, Designator7_1_2, Designator7_2, Designator7_3","HDR_5","","5","6"
+"Header_1","","J1, J1_1, J1_1_1, J1_1_2, J1_2, J1_3","HDR_1","Header_1","1","6"
+"Header_3","","J2, J2_1, J2_1_1, J2_1_2, J2_2, J2_3","HDR_3","Header_3","3","6"
+"?ohm","","R1, R1_1, R1_1_1, R1_1_2, R1_2, R1_3, R2, R2_1, R2_1_1, R2_1_2, R2_2, R2_3, R3, R3_1, R3_1_1, R3_1_2, R3_2, R3_3, R4, R4_1, R4_1_1, R4_1_2, R4_2, R4_3","RES_0805","RES","2","24"
+"PE4302","","U1, U1_1, U1_1_1, U1_1_2, U1_2, U1_3","PE4302","PE4302","21","6"
+"SMA","","U2, U2_1, U2_1_1, U2_1_2, U2_2, U2_3, U3, U3_1, U3_1_1, U3_1_2, U3_2, U3_3","SMA接口","SMA","3","12"
+>>>>>>> 43888ac89e41450472c750f6e8d67c4bfa5e6ee8

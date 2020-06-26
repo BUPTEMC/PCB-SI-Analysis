@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 
 "0.1uF","","C1, C3, C5, C6","CAP_0805","CAP_paster","2","4"
@@ -12,3 +13,19 @@ Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 "?ohm","","R11","RES_0805","RES","2","1"
 "SMA","","U1, U2, U4, U5","SMA接口","SMA","3","4"
 "AD8367","压控放大器（带检波器）","U3","AD8367","AD8367","14","1"
+=======
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+
+"0.1uF","","C1, C3, C5, C6","CAP_0805","CAP_paster","2","4"
+"10nF","","C2, C4","CAP_0805","CAP_paster","2","2"
+"LED_Light","","LED1","LED_D","LED_Light","2","1"
+"0ohm","","R1, R4, R9, R10","RES_0805","RES","2","4"
+"200ohm","","R2","RES_0805","RES","2","1"
+"100ohm","","R3","RES_0805","RES","2","1"
+"110ohm","","R5","RES_0805","RES","2","1"
+"120ohm","","R6","RES_0805","RES","2","1"
+"4.7ohm","","R7, R8","RES_0805","RES","2","2"
+"?ohm","","R11","RES_0805","RES","2","1"
+"SMA","","U1, U2, U4, U5","SMA接口","SMA","3","4"
+"AD8367","压控放大器（带检波器）","U3","AD8367","AD8367","14","1"
+>>>>>>> 43888ac89e41450472c750f6e8d67c4bfa5e6ee8

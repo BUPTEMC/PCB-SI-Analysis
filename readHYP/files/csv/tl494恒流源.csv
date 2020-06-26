@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 
 "2104","","*1","SOP8","Component_1","8","1"
@@ -24,3 +25,31 @@ Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
 "INA286","","U1","SOP8","INA286","8","1"
 "TL494CD","Pulse-Width-Modulation Control Circuit","U2","DIP16","TL494CD","16","1"
 "OP365","","U3","SOP8","OP07","8","1"
+=======
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+
+"2104","","*1","SOP8","Component_1","8","1"
+"Cap2","Capacitor","C1, C2","CAP4MM","Cap2","2","2"
+"Cap Pol1","Polarized Capacitor (Radial)","C3, C4","C13x20","Cap Pol1","2","2"
+"Cap","Capacitor","C5, C6, C8, C10, C11, C16","C0805","Cap","2","6"
+"50V/10uF","Polarized Capacitor (Radial)","C7","C8X10","Cap Pol1","2","1"
+"50V/47uF","Polarized Capacitor (Radial)","C9","C6X8","Cap Pol1","2","1"
+"CAP_0805","CAP_0805","C12","CAP4MM","CAP_0805","2","1"
+"470uF/50V","CAP_DIP","C13, C14","C13x20","CAP_DIP","2","2"
+"CAP_0805","CAP_0805","C15","C0805","CAP_0805","2","1"
+"FR107","Default Diode","D1","AXIAL-0.1-R","Diode","2","1"
+"H-2","Header, 2-Pin","JP1, JP2, JP3, JP4","2PIN-5.08","H-2","2","4"
+"300uH","","L1","INDUCT","L101","2","1"
+"Header 4","Header, 4-Pin","P1","HDR1X4","Header 4","4","1"
+"CSD19533","N-Channel MOSFET","Q1, Q2","TO220_3","MOSFET-N","3","2"
+"cizhu","Resistor","R1","R0805","Res1","2","1"
+"Res","Resistor","R2, R6, R14","R0805","Res","2","3"
+"Res1","Resistor","R3, R5, R8, R9, R12, R13","R0805","Res1","2","6"
+"10R","0805µç×è","R4, R11","R0805","Res","2","2"
+"Res1","Resistor","R7","R1210","Res1","2","1"
+"82K","0805µç×è","R10","R0805","Res","2","1"
+"20K","0805µç×è","R15","R0805","Res","2","1"
+"INA286","","U1","SOP8","INA286","8","1"
+"TL494CD","Pulse-Width-Modulation Control Circuit","U2","DIP16","TL494CD","16","1"
+"OP365","","U3","SOP8","OP07","8","1"
+>>>>>>> 43888ac89e41450472c750f6e8d67c4bfa5e6ee8
