@@ -1,4 +1,5 @@
 import HYPF2D as C
+import HYPF2D_Iter as CC
 import re
 
 segs = {
@@ -41,11 +42,17 @@ signals = C.findAPin(models, model2, (0, 0), segs, aPins, nPins)
 # print(signals)
 models = C.genModel(signals, plane)
 # print(models)
-finalModels = C.generateModels(aPins, nPins, segs, names)
+# finalModels = C.generateModels(aPins, nPins, segs, names)
 
-_models = C.sortModels(aPins, nPins, segs, names)
-print(_models)
+# _models = C.sortModels(aPins, nPins, segs, names)
+# print(_models)
 
-_line = "(SIGNAL L=Top T=0.0014)"
-_line = re.split(r'[ ](?![^=]*\")', _line)
-print(_line)
+# _line = "(SIGNAL L=Top T=0.0014)"
+# _line = re.split(r'[ ](?![^=]*\")', _line)
+# print(_line)
+
+# models = CC.findAPinPath(segs, aPins, nPins)
+models = CC.findAPinPath((0,0), [],aPins, nPins, segs)
+terminate = CC.findVCCAndGNDPath((0,0),[],aPins, nPins, segs, names)
+print(terminate)
+# print(signals[1])

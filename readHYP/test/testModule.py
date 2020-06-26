@@ -13,3 +13,12 @@ l.extend([4,5,6,7])
 test = "{STACKUP\n"
 
 print(test[1:-1] == "STACKUP")
+
+
+test = {'a':123, 'b':456}
+for i in test.keys():
+    print(i)
+
+nPins = {"a": 123, "b":456}
+nPins.pop("a")
+print(nPins)

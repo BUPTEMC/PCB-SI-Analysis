@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="440f7164-5e7e-4256-8ad5-9759a37661ca" name="Default Changelist" comment="" />
+    <list default="true" id="440f7164-5e7e-4256-8ad5-9759a37661ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/RNNCell1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/RNNCell1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/RNNSentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/RNNSentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../readHYP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/HYPF2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/../readHYP/HYPF2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/files/BSW.log" beforeDir="false" afterPath="$PROJECT_DIR$/../readHYP/files/BSW.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/files/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../readHYP/files/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/test/canBedelete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/test/testHYPF2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/../readHYP/test/testHYPF2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/test/testModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/../readHYP/test/testModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readHYP/test/testSelfData.py" beforeDir="false" afterPath="$PROJECT_DIR$/../readHYP/test/testSelfData.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Y3FT69vcqbHDzkvio3X6OrZtr6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +42,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/output" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,8 +53,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.RNNSentiment">
-    <configuration name="RNNCell1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Lab\EMCManagement\code\pythonCode\ML\output" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.testTime">
+    <configuration name="DataPreprocess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,7 +72,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/RNNCell1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/DataPreprocess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -55,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RNNSentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RNNSeq2Seq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,7 +94,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/RNNSentiment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/RNNSeq2Seq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testMoudle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testMoudle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testReadFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testReadFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testTime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testTime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,8 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RNNSentiment" />
-        <item itemvalue="Python.RNNCell1" />
+        <item itemvalue="Python.testTime" />
+        <item itemvalue="Python.DataPreprocess" />
+        <item itemvalue="Python.testReadFile" />
+        <item itemvalue="Python.testMoudle" />
+        <item itemvalue="Python.RNNSeq2Seq" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +189,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582163375024</updated>
-      <workItem from="1582163381223" duration="7610000" />
+      <workItem from="1582163381223" duration="21011000" />
+      <workItem from="1582372738895" duration="16727000" />
+      <workItem from="1582858795368" duration="15957000" />
+      <workItem from="1582901323189" duration="303000" />
+      <workItem from="1583143785479" duration="664000" />
     </task>
     <servers />
   </component>
@@ -102,33 +201,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1433" height="54" key="GridCell.Tab.0.bottom" timestamp="1582191324370">
+    <state x="518" y="189" key="FileChooserDialogImpl" timestamp="1582901626002">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="54" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582191324370" />
-    <state width="1433" height="54" key="GridCell.Tab.0.center" timestamp="1582191324370">
+    <state x="518" y="189" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1582901626002" />
+    <state width="1433" height="448" key="GridCell.Tab.0.bottom" timestamp="1583160080378">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="54" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1582191324370" />
-    <state width="1433" height="54" key="GridCell.Tab.0.left" timestamp="1582191324370">
+    <state width="1433" height="448" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1583160080378" />
+    <state width="1433" height="448" key="GridCell.Tab.0.center" timestamp="1583160080377">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="54" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1582191324370" />
-    <state width="1433" height="54" key="GridCell.Tab.0.right" timestamp="1582191324370">
+    <state width="1433" height="448" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1583160080377" />
+    <state width="1433" height="448" key="GridCell.Tab.0.left" timestamp="1583160080377">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="54" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1582191324370" />
+    <state width="1433" height="448" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1583160080377" />
+    <state width="1433" height="448" key="GridCell.Tab.0.right" timestamp="1583160080378">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1433" height="448" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1583160080378" />
     <state x="246" y="78" key="SettingsEditor" timestamp="1582163463007">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="246" y="78" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1582163463007" />
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1582191116533">
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1582878096868">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1582191116533" />
+    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1582878096868" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML$RNNSentiment.coverage" NAME="RNNSentiment Coverage Results" MODIFIED="1582191324360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ML$BiRNN.coverage" NAME="BiRNN Coverage Results" MODIFIED="1582339348077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ML$RNNSeq2Seq.coverage" NAME="RNNSeq2Seq Coverage Results" MODIFIED="1582872530200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ML$testReadFile.coverage" NAME="testReadFile Coverage Results" MODIFIED="1582887952274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML$RNNSentiment.coverage" NAME="RNNSentiment Coverage Results" MODIFIED="1582272879142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ML$DataPreprocess.coverage" NAME="DataPreprocess Coverage Results" MODIFIED="1582897920442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ML$testTime.coverage" NAME="testTime Coverage Results" MODIFIED="1583143851053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML$RNNSentimentKeras.coverage" NAME="RNNSentimentKeras Coverage Results" MODIFIED="1582429360431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ML$testMoudle.coverage" NAME="testMoudle Coverage Results" MODIFIED="1582878106301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ML$RNNCell1.coverage" NAME="RNNCell1 Coverage Results" MODIFIED="1582191305412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>

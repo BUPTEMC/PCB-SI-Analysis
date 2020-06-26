@@ -1,0 +1,32 @@
+2020-02-27 22:09:24 6504    [ERROR] Error: Syntax error: REF is missing in line 34
+2020-02-27 22:12:22 6504     [INFO] ****** Closing HyperLynx 
+2020-02-27 22:12:30 20036     [INFO] The board's outline polygon is not closed. BoardSim will close it for you. 
+2020-02-27 22:12:31 20036  [WARNING] Stackup Verifier: 	WARNING: Layer BOTTOM is buried and contains components!
+2020-02-27 22:12:31 20036  [WARNING] Stackup Verifier: A dielectric layer was added near layer Top_Solder.
+2020-02-27 22:12:31 20036  [WARNING] Stackup Verifier: A dielectric layer was added near layer Bottom_Solder.
+2020-02-27 22:12:31 20036  [WARNING] Stackup Verifier: Signal layer TOP was  0.00 oz, Set to  1.00 oz.
+2020-02-27 22:12:37 20036     [INFO] Opening Design: SampleAD-03.HYP
+2020-02-27 22:12:37 20036     [INFO] The board's outline polygon is not closed. BoardSim will close it for you. 
+2020-02-27 22:15:22 20036     [INFO] Notice: Please select a net.
+2020-02-27 22:31:15 20036     [INFO] Close HyperLynx Session: Design file: SampleAD-03.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-27 22:31:19 20036     [INFO] Closing Design: SampleAD-03.HYP
+2020-02-27 22:31:20 20036     [INFO] ****** Closing HyperLynx 
+2020-02-27 22:31:34 23776  [WARNING] Load HYP-file: Some metal areas lie at least partially outside the board outline. They have been clipped to be entirely inside.
+2020-02-27 22:31:35 23776  [WARNING] Warning: One or more nets are completely unrouted.  Do you want to connect them using "virtual", Manhattan-style routing?  (Does not apply to power-supply nets.)  Note: This process will begin by determining the detailed routing status of every net on the board, which can be very time-consuming (especially if some power-supply nets are mistakenly identified as signal nets).  If you prefer to skip this process now, you can run it later using Edit > Connect Nets with Manhattan Routing. - The "Yes" button was selected
+2020-02-27 22:31:46 23776     [INFO] Opening Design: SampleAD-02.HYP
+2020-02-27 22:43:49 23776     [INFO] Close HyperLynx Session: Design file: SampleAD-02.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-27 22:43:52 23776     [INFO] Closing Design: SampleAD-02.HYP
+2020-02-27 22:43:53 23776     [INFO] ****** Closing HyperLynx 
+2020-02-28 22:59:18 11716  [WARNING] Load HYP-file: Some metal areas lie at least partially outside the board outline. They have been clipped to be entirely inside.
+2020-02-28 22:59:33 11716  [WARNING] Stackup Verifier: 	WARNING: Layer BOOTOM is buried and contains components!
+2020-02-28 22:59:33 11716  [WARNING] Stackup Verifier: A dielectric layer was added near layer signal.
+2020-02-28 22:59:38 11716     [INFO] Opening Design: SampleAD-01.HYP
+2020-02-28 23:13:33 11716     [INFO] Close HyperLynx Session: Design file: SampleAD-01.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-28 23:13:37 11716     [INFO] Closing Design: SampleAD-01.HYP
+2020-02-28 23:13:38 11716     [INFO] ****** Closing HyperLynx 
+2020-02-28 23:37:39 8488  [WARNING] Load HYP-file: Some metal areas lie at least partially outside the board outline. They have been clipped to be entirely inside.
+2020-02-28 23:37:40 8488  [WARNING] Warning: One or more nets are completely unrouted.  Do you want to connect them using "virtual", Manhattan-style routing?  (Does not apply to power-supply nets.)  Note: This process will begin by determining the detailed routing status of every net on the board, which can be very time-consuming (especially if some power-supply nets are mistakenly identified as signal nets).  If you prefer to skip this process now, you can run it later using Edit > Connect Nets with Manhattan Routing. - The "Yes" button was selected
+2020-02-28 23:37:45 8488     [INFO] Opening Design: SampleAD-02.HYP
+2020-02-28 23:46:47 8488     [INFO] Close HyperLynx Session: Design file: SampleAD-02.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-28 23:46:50 8488     [INFO] Closing Design: SampleAD-02.HYP
+2020-02-28 23:46:51 8488     [INFO] ****** Closing HyperLynx 

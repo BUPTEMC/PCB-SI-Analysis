@@ -2,3 +2,17 @@
 2020-02-18 16:06:33 7808     [INFO] Close HyperLynx Session: Design file: demo.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
 2020-02-18 16:06:36 7808     [INFO] Closing Design: demo.hyp
 2020-02-18 16:06:37 7808     [INFO] ****** Closing HyperLynx 
+2020-02-28 21:45:15 8488  [WARNING] Load HYP-file: Some metal areas lie at least partially outside the board outline. They have been clipped to be entirely inside.
+2020-02-28 21:45:17 8488  [WARNING] Warning: One or more nets are completely unrouted.  Do you want to connect them using "virtual", Manhattan-style routing?  (Does not apply to power-supply nets.)  Note: This process will begin by determining the detailed routing status of every net on the board, which can be very time-consuming (especially if some power-supply nets are mistakenly identified as signal nets).  If you prefer to skip this process now, you can run it later using Edit > Connect Nets with Manhattan Routing. - The "Yes" button was selected
+2020-02-28 21:45:24 8488     [INFO] Opening Design: SampleAD-02-AD.HYP
+2020-02-28 22:01:25 8488     [INFO] Please select a net.
+2020-02-28 22:03:04 8488     [INFO] This design's .HYP file was created by a PCB translator that did not record whether the physical information is sufficiently detailed for power-integrity analysis (especially metal areas and via clearances).  Most likely, the translator was an older version not upgraded for PI usage.  PI simulation may therefore produce less-accurate results.
+2020-02-28 22:03:13 8488  [WARNING] Prepare BoardData: One or more large pads were detected and converted into copper areas.
+2020-02-28 22:12:44 8488     [INFO] Notice: Please select a net.
+2020-02-28 22:17:37 8488     [INFO] Save Batch Settings: Press YES to save changes Press NO to restore previous settings - The "No" button was selected
+2020-02-28 22:24:52 8488     [INFO] Save Batch Settings: Press YES to save changes Press NO to restore previous settings - The "Yes" button was selected
+2020-02-28 23:15:43 8488     [INFO] Close HyperLynx Session: Design file: SampleAD-02-AD.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-28 23:15:44 8488     [INFO] Closing Design: SampleAD-02-AD.HYP
+2020-02-28 23:15:50 8488     [INFO] Opening Design: demo.hyp
+2020-02-28 23:37:07 8488     [INFO] Close HyperLynx Session: Design file: demo.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2020-02-28 23:37:10 8488     [INFO] Closing Design: demo.hyp

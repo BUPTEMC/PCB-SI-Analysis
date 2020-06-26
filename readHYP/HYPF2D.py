@@ -4,6 +4,8 @@ import copy
 import pandas as pd
 import numpy as np
 
+fuck = 0
+
 def getNetNames(path):
     nets = []
     with open(path, 'r') as f:
@@ -25,19 +27,20 @@ def getLayersInfo(path, N=0):
         idx = 0
         flag = False
         for i, line in enumerate(f.readlines()[N:]):
+            _line = line.strip()
             # 读取结束, 返回层信息
-            if line[:-1] == "}" and flag:
+            if _line[:-1] == "}" and flag:
                 flag = False
                 idx = i + N + 1
                 return layers, idx
             # 读到"STACKUP", 开启层信息的读取
-            if line[1:-1] == "STACKUP":
+            if _line[1: ] == "STACKUP":
                 flag = True
                 continue
 
             # 读取层信息
             if flag:
-                _line = line.strip()
+                # _line = line.strip()
                 _line = re.split(r'[ ](?![^=]*\")', _line)
                 # 读取信号层的信息
                 if _line[0][1:] == "PLANE" or _line[0][1:] == "SIGNAL":

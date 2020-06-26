@@ -13,6 +13,7 @@ out, ht1 = cell(xt0, [tf.zeros(shape=(4, 64))])
 
 # print(out.shape, ht1[0].shape)
 
+# rnn cell needs output dim
 cell = layers.SimpleRNNCell(64)
 cell2 = layers.SimpleRNNCell(64)
 state0 = [tf.zeros(shape=(4, 64))]

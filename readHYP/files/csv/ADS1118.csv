@@ -1,0 +1,11 @@
+Comment,Description,Designator,Footprint,LibRef,Pins,Quantity
+
+"Cap0805","Capacitor","C1","CAP_0805","Cap0805","2","1"
+"Comment","","Designator176, Designator177, Designator178, Designator179","HOLE","","1","4"
+"CONNECT_2","端子","J1, J2, J3","CONNECT_2","CONNECT_2","2","3"
+"Header_5","","J4","HDR_5","Header_5","5","1"
+"Header 4","Header 4","JP1, JP2","HDR1X4","Header 4","4","2"
+"?ohm","","R1","RES_采样","RES","2","1"
+"50","Resistor","R2, R3, R4, R5","Res_0805","RES","2","4"
+"ADS1118","","U","ADS1118","ADS1118","10","1"
+"INA286","电流放大器","U1","TO8","INA286","8","1"

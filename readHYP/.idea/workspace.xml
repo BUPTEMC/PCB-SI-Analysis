@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f7b21a-23f3-40ec-aa5a-9c20f3b9ab12" name="Default Changelist" comment="" />
+    <list default="true" id="94f7b21a-23f3-40ec-aa5a-9c20f3b9ab12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ML/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ML/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML/code/RNNCell1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ML/code/RNNCell1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML/code/RNNSentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ML/code/RNNSentiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HYPF2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/HYPF2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/BSW.log" beforeDir="false" afterPath="$PROJECT_DIR$/files/BSW.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/canBedelete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testHYPF2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testHYPF2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testSelfData.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSelfData.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1WuibwoXhJ9Nkt6p506OT2iJeRS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +49,35 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.testHYPF2D">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Lab\EMCManagement\code\pythonCode\readHYP\test" />
+      <recent name="E:\Lab\EMCManagement\code\pythonCode\readHYP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DataGenerate">
+    <configuration name="DataGenerate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="readHYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/DataGenerate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testHYPF2D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="readHYP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,11 +144,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testSelfData2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="readHYP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testSelfData2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DataGenerate" />
         <item itemvalue="Python.testHYPF2D" />
-        <item itemvalue="Python.testModule" />
+        <item itemvalue="Python.testSelfData2" />
         <item itemvalue="Python.testSelfData" />
+        <item itemvalue="Python.testModule" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +198,12 @@
       <workItem from="1581902846749" duration="20323000" />
       <workItem from="1582074706716" duration="9225000" />
       <workItem from="1582163344940" duration="30000" />
+      <workItem from="1582442050777" duration="10492000" />
+      <workItem from="1582722026548" duration="38199000" />
+      <workItem from="1582850917273" duration="4961000" />
+      <workItem from="1582898689655" duration="1580000" />
+      <workItem from="1582901627674" duration="871000" />
+      <workItem from="1583143587445" duration="196000" />
     </task>
     <servers />
   </component>
@@ -136,57 +211,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="516" y="150" key="FileChooserDialogImpl" timestamp="1582163374513">
+    <state x="516" y="150" key="FileChooserDialogImpl" timestamp="1583143783131">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="516" y="150" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1580010454875" />
-    <state x="516" y="150" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1582163374513" />
-    <state width="1433" height="173" key="GridCell.Tab.0.bottom" timestamp="1582119015701">
+    <state x="516" y="150" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1583143783131" />
+    <state width="1433" height="439" key="GridCell.Tab.0.bottom" timestamp="1582904939121">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="1432" height="233" key="GridCell.Tab.0.bottom/0.0.1473.864@0.0.1473.864" timestamp="1580180286003" />
-    <state width="1433" height="173" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582119015701" />
-    <state width="1433" height="173" key="GridCell.Tab.0.center" timestamp="1582119015701">
+    <state width="1433" height="439" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582904939121" />
+    <state width="1433" height="439" key="GridCell.Tab.0.center" timestamp="1582904939120">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="1432" height="233" key="GridCell.Tab.0.center/0.0.1473.864@0.0.1473.864" timestamp="1580180286003" />
-    <state width="1433" height="173" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1582119015701" />
-    <state width="1433" height="173" key="GridCell.Tab.0.left" timestamp="1582119015701">
+    <state width="1433" height="439" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1582904939120" />
+    <state width="1433" height="439" key="GridCell.Tab.0.left" timestamp="1582904939120">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="1432" height="233" key="GridCell.Tab.0.left/0.0.1473.864@0.0.1473.864" timestamp="1580180286002" />
-    <state width="1433" height="173" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1582119015701" />
-    <state width="1433" height="173" key="GridCell.Tab.0.right" timestamp="1582119015701">
+    <state width="1433" height="439" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1582904939120" />
+    <state width="1433" height="439" key="GridCell.Tab.0.right" timestamp="1582904939121">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="1432" height="233" key="GridCell.Tab.0.right/0.0.1473.864@0.0.1473.864" timestamp="1580180286003" />
-    <state width="1433" height="173" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1582119015701" />
-    <state width="1433" height="289" key="GridCell.Tab.1.bottom" timestamp="1582033728120">
+    <state width="1433" height="439" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1582904939121" />
+    <state width="1433" height="289" key="GridCell.Tab.1.bottom" timestamp="1582814039235">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="289" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582033728120" />
-    <state width="1433" height="289" key="GridCell.Tab.1.center" timestamp="1582033728120">
+    <state width="1433" height="289" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582814039235" />
+    <state width="1433" height="289" key="GridCell.Tab.1.center" timestamp="1582814039235">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="289" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1582033728120" />
-    <state width="1433" height="289" key="GridCell.Tab.1.left" timestamp="1582033728120">
+    <state width="1433" height="289" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1582814039235" />
+    <state width="1433" height="289" key="GridCell.Tab.1.left" timestamp="1582814039235">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="289" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1582033728120" />
-    <state width="1433" height="289" key="GridCell.Tab.1.right" timestamp="1582033728120">
+    <state width="1433" height="289" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1582814039235" />
+    <state width="1433" height="289" key="GridCell.Tab.1.right" timestamp="1582814039235">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1433" height="289" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1582033728120" />
+    <state width="1433" height="289" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1582814039235" />
     <state x="245" y="102" width="981" height="707" key="SettingsEditor" timestamp="1580715003039">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="245" y="102" width="981" height="707" key="SettingsEditor/0.0.1473.864@0.0.1473.864" timestamp="1580120953335" />
     <state x="245" y="102" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1580715003039" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1580700255175">
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup" timestamp="1582771000980">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1473.864@0.0.1473.864" timestamp="1580121028283" />
-    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1580700255175" />
+    <state x="399" y="181" width="673" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1582771000980" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -198,8 +273,11 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/readHYP$testModule.coverage" NAME="testModule Coverage Results" MODIFIED="1582013040907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/readHYP$testSelfData.coverage" NAME="testSelfData Coverage Results" MODIFIED="1582012367048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/readHYP$testHYPF2D.coverage" NAME="testHYPF2D Coverage Results" MODIFIED="1582114098288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/readHYP$testSelfData2.coverage" NAME="testSelfData2 Coverage Results" MODIFIED="1582807665557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/readHYP$canbeDelete.coverage" NAME="canbeDelete Coverage Results" MODIFIED="1582462599834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/readHYP$DataGenerate.coverage" NAME="DataGenerate Coverage Results" MODIFIED="1582901887502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/readHYP$testModule.coverage" NAME="testModule Coverage Results" MODIFIED="1582784299222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/readHYP$testSelfData.coverage" NAME="testSelfData Coverage Results" MODIFIED="1582801196199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/readHYP$testHYPF2D.coverage" NAME="testHYPF2D Coverage Results" MODIFIED="1582809562236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>
